@@ -1,0 +1,14 @@
+import java.time.LocalDateTime;
+import java.util.Map;
+
+public class OperationLog {
+
+    private String logId;
+    private String operationType;
+    private LocalDateTime operationDate;
+    private Long userId;
+    private String userRole;
+    private String affectedProductId;
+    private Map<String, Object> detailData;
+
+}

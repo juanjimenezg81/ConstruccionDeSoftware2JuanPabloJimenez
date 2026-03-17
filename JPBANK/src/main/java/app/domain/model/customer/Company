@@ -1,0 +1,6 @@
+public class Company extends Customer {
+
+    private String businessName;
+    private String legalRepresentativeId;
+
+}

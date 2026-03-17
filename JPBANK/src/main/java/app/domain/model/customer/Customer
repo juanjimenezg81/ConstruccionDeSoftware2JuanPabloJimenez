@@ -1,0 +1,8 @@
+public abstract class Customer {
+
+    protected String identification;
+    protected String email;
+    protected String phone;
+    protected String address;
+
+}

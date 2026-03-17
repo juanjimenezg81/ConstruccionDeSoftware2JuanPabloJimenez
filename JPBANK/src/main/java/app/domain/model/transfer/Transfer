@@ -1,0 +1,16 @@
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public class Transfer {
+
+    private Long transferId;
+    private String sourceAccount;
+    private String destinationAccount;
+    private BigDecimal amount;
+    private LocalDateTime creationDate;
+    private LocalDateTime approvalDate;
+    private TransferStatus status;
+    private Long createdByUserId;
+    private Long approvedByUserId;
+
+}

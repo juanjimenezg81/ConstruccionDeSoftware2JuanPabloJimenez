@@ -1,0 +1,16 @@
+import java.time.LocalDate;
+
+public class SystemUser {
+
+    private Long userId;
+    private String relatedEntityId;
+    private String fullName;
+    private String identification;
+    private String email;
+    private String phone;
+    private LocalDate birthDate;
+    private String address;
+    private Role role;
+    private UserStatus status;
+
+}

@@ -1,0 +1,8 @@
+public class BankProduct {
+
+    private String productCode;
+    private String productName;
+    private String category;
+    private Boolean requiresApproval;
+
+}

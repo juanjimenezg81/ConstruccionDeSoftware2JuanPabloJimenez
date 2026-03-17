@@ -1,0 +1,8 @@
+public enum LoanType {
+
+    CONSUMER,
+    VEHICLE,
+    MORTGAGE,
+    BUSINESS
+
+}

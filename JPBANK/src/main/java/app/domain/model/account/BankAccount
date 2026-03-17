@@ -1,0 +1,14 @@
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class BankAccount {
+
+    private String accountNumber;
+    private AccountType type;
+    private String ownerId;
+    private BigDecimal balance;
+    private String currency;
+    private AccountStatus status;
+    private LocalDate openingDate;
+
+}

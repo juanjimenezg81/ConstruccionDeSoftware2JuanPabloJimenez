@@ -1,0 +1,18 @@
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Loan {
+
+    private Long loanId;
+    private LoanType type;
+    private String customerId;
+    private BigDecimal requestedAmount;
+    private BigDecimal approvedAmount;
+    private BigDecimal interestRate;
+    private Integer termMonths;
+    private LoanStatus status;
+    private LocalDate approvalDate;
+    private LocalDate disbursementDate;
+    private String disbursementAccount;
+
+}

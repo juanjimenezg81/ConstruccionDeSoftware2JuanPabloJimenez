@@ -1,0 +1,10 @@
+public enum LoanStatus {
+
+    UNDER_REVIEW,
+    APPROVED,
+    REJECTED,
+    DISBURSED,
+    IN_ARREARS,
+    CLOSED
+
+}
